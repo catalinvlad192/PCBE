@@ -2,8 +2,8 @@
 
 public class Main
 {
-	pubic static void main(String[] args)
-	{
+    pubic static void main(String[] args)
+    {
 
-	}
+    }
 }
