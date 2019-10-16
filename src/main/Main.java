@@ -8,6 +8,14 @@ public class Main {
 		Server server = new Server();
 		Thread serverTh = new Thread(server);
 		serverTh.start();
+		
+		try {
+			Thread.sleep(100);
+		}
+		catch(InterruptedException e)
+		{
+			e.printStackTrace();
+		}
 				
 		// Clients
 		for(int i=0; i<10; i++)

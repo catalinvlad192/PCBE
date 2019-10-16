@@ -15,13 +15,35 @@ public class Server implements Runnable{
 	{
 		transactions_ = new ArrayList<ITransaction>();
 	}
+	
+	public ArrayList<ITransaction> getTransactions()
+	{
+		return transactions_;
+	}
+	
+	public synchronized void addTransaction(ITransaction t)
+	{
+		transactions_.add(t);
+	}
+	
+	public synchronized Offer find(Request r)
+	{
+		// TODO:
+		return new Offer("", 1, 1);
+	}
+	
+	public synchronized Offer find(String client)
+	{
+		// TODO:
+		return new Offer("", 1, 1);
+	}
 
 	@Override
 	public void run() {
 		try
 		{
 			serverSocket_ = new ServerSocket(15432);
-			System.out.println("Server started for port 15432");
+			System.out.println("[Server] Server started for port 15432");
 			
 			while(true)
 			{
@@ -30,7 +52,7 @@ public class Server implements Runnable{
 				Thread thread = new Thread(new ServerThread(this, client));
 				listOfThreads_.add(thread);
 				thread.start();
-				System.out.println("New thread started");
+				System.out.println("[Server] New thread started");
 			}
 			
 		} catch(IOException e)
