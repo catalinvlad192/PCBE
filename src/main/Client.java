@@ -1,10 +1,6 @@
 package main;
 
-import java.io.BufferedReader;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
@@ -14,12 +10,15 @@ public class Client implements Runnable{
 	private int money_;
 	private String clientName_;
 	private Socket socket_;
+	private boolean buy_;
+	private Thread thread_;
 	
-	public Client(String clientName, int numberOfStocks)
+	public Client(String clientName, int numberOfStocks, boolean buy)
 	{
 		numberOfStocks_ = numberOfStocks;
 		money_ = 10000;
 		clientName_ = clientName;
+		buy_ = buy;
 	}
 	
 	public String getClientName()
@@ -27,41 +26,59 @@ public class Client implements Runnable{
 		return clientName_;
 	}
 	
+	public boolean isBuying()
+	{
+		return buy_;
+	}
+	
+	public synchronized boolean sold(Offer myOffer)
+	{
+		System.out.println("[Client] Trying to sell");
+		if (clientName_.equals(myOffer.getClientName()))
+		{
+			int stocksSold = myOffer.getNumberOfStocks();
+			int price = myOffer.getPricePerStock();
+			System.out.println("[Client] selling " + numberOfStocks_ + " " + money_);
+			numberOfStocks_ = numberOfStocks_ - stocksSold;
+			money_ = money_ + stocksSold*price;
+			System.out.println("[Client] sold " + numberOfStocks_ + " " + money_);
+			buy_ = !buy_;
+			notifyAll();
+			return true;
+		}
+		notifyAll();
+		return false;
+	}
+	
+	public synchronized boolean bought(Offer offer)
+	{
+		System.out.println("[Client] Trying to buy");
+		int stocksBought = offer.getNumberOfStocks();
+		int price = offer.getPricePerStock();
+		System.out.println("[Client] OFFERbuy " + stocksBought + " " + price);
+		
+		if (!clientName_.equals(offer.getClientName()))
+		{
+			System.out.println("[Client] Buying " + numberOfStocks_ + " " + money_);
+			numberOfStocks_ = numberOfStocks_ + stocksBought;
+			money_ = money_ - stocksBought*price;
+			buy_ = !buy_;
+			System.out.println("[Client] Bought " + numberOfStocks_ + " " + money_);
+			notifyAll();
+			return true;
+		}
+		notifyAll();
+		return false;
+	}
+	
 	private Offer sell(int numberOfStocks, int pricePerStock)
 	{
 		return new Offer(clientName_, numberOfStocks, pricePerStock);
 	}
 	
-	private boolean sold(Offer myOffer)
-	{
-		if (clientName_.equals(myOffer.getClientName()))
-		{
-			int stocksSold = myOffer.getNumberOfStocks();
-			int price = myOffer.getPricePerStock();
-			numberOfStocks_ = numberOfStocks_ - stocksSold;
-			money_ = money_ + stocksSold*price;
-			return true;
-		}
-		return false;
-	}
-	
 	private Request buy(int numberOfStocks, int pricePerStock)
 	{
 		return new Request(clientName_, numberOfStocks, pricePerStock);
-	}
-	
-	private boolean bought(Offer offer)
-	{
-		int stocksBought = offer.getNumberOfStocks();
-		int price = offer.getPricePerStock();
-		
-		if (!clientName_.equals(offer.getClientName()))
-		{
-			numberOfStocks_ = numberOfStocks_ + stocksBought;
-			money_ = money_ - stocksBought*price;
-			return true;
-		}
-		return false;
 	}
 
 	@Override
@@ -72,62 +89,32 @@ public class Client implements Runnable{
 				socket_ = new Socket("127.0.0.1", 15432);
 				
 				PrintWriter outputString = new PrintWriter(socket_.getOutputStream(), true);
-				BufferedReader inputString = new BufferedReader(new InputStreamReader(socket_.getInputStream()));
-				DataOutputStream outputData = new DataOutputStream(socket_.getOutputStream());
-				DataInputStream inputData = new DataInputStream(socket_.getInputStream());
 				
-				double random = Math.random();
-				boolean isBuying;
-				
-				// Try to buy if you have money
-				if(random < 0.5 && money_ > 0)
+				if(buy_)
 				{
-					// send request
-					isBuying = true;
 					Request req = buy(10, 1000);
-					outputString.println("REQ");
-					System.out.println("[Client] write REQ");
-					outputString.println(req.getClientName());
-					System.out.println("[Client] write client name " + req.getClientName());
-					outputData.writeInt(req.getNumberOfStocks());
-					System.out.println("[Client] write client stocks " + req.getNumberOfStocks());
-					outputData.writeInt(req.getPricePerStock());
-					System.out.println("[Client] write client price " + req.getPricePerStock());
-					System.out.println("[Client]" + clientName_ + " Wants to buy");
-					
-				} else // Try to sell otherwise
+					String s = "BUY " + req.getClientName() + " " + req.getNumberOfStocks() + " " + req.getPricePerStock();
+					outputString.println(s);
+					System.out.println("[Client] " + s);
+				}
+				else
 				{
-					// send offer;
-					isBuying = false;
 					Offer off = sell(10, 1000);
-					outputString.println("OFF");
-					System.out.println("[Client] write OFF");
-					outputString.println(off.getClientName());
-					System.out.println("[Client] write client name " + off.getClientName());
-					outputData.writeInt(off.getNumberOfStocks());
-					System.out.println("[Client] write client stocks " + off.getNumberOfStocks());
-					outputData.writeInt(off.getPricePerStock());
-					System.out.println("[Client] write client price " + off.getPricePerStock());
-					System.out.println("[Client]" + clientName_ + " Wants to sell");
+					String s = "SELL " + off.getClientName() + " " + off.getNumberOfStocks() + " " + off.getPricePerStock();
+					outputString.println(s);
+					System.out.println("[Client] " + s);
 				}
 				
-				// If you are buying, just wait for the seller
-				if(isBuying)
+				boolean buyFormer = buy_;
+				thread_ = new Thread(new ClientThread(this, socket_));
+				thread_.start();
+				System.out.println("[Client] New thread started for waiting response");
+				
+				while(buyFormer == buy_)
 				{
-					String client = inputString.readLine();
-					client = client.substring(0, client.length());
-					int stocksInt = inputData.readInt();
-					int priceInt = inputData.readInt();
-					
-					Offer serverOffer = new Offer(client, stocksInt, priceInt);
-					bought(serverOffer);
-					System.out.println("[Client]" + clientName_ + " bought from " + serverOffer.getClientName());
+					//do some actions;
 				}
-				else // Check from time to time if someone bought your stocks
-				{
-					String s = inputString.readLine();
-					sold(sell(10, 1000));
-				}
+				//outputString.println("TR_OK");
 			}
 			catch(IOException e)
 			{

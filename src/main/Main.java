@@ -20,7 +20,7 @@ public class Main {
 		// Clients
 		for(int i=0; i<10; i++)
 		{
-			Client client = new Client("Client"+i, 10);
+			Client client = new Client("Client"+i, 10, i%2==0);
 			Thread clientTh = new Thread(client);
 			clientTh.start();
 		}

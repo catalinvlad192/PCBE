@@ -1,8 +1,6 @@
 package main;
 
 import java.io.BufferedReader;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -21,74 +19,60 @@ public class ServerThread extends Thread
 	
 	public void run()
 	{
-		System.out.println("[ServerThread]Server communicates with client");
+		System.out.println("[ServerThread]Server communicates with Client and ClientThread");
 		try
 		{
 			PrintWriter outputString = new PrintWriter(client_.getOutputStream(), true);
 			BufferedReader inputString = new BufferedReader(new InputStreamReader(client_.getInputStream()));
-			DataOutputStream outputData = new DataOutputStream(client_.getOutputStream());
-			DataInputStream inputData = new DataInputStream(client_.getInputStream());
 			// receive request or offer and send back message.
 			
-			String s = inputString.readLine();
-			s = s.substring(0, s.length());
-			System.out.println("[ServerThread] Read s" + s);
-			if(s.equals("REQ"))
+			String read = inputString.readLine();
+			String[] splittedRead = read.split(" ");
+			System.out.println("[ServerThread] Received transaction. Processing... ");
+			System.out.println("[ServerThread] " + splittedRead[0] + " " + splittedRead[1] + " " + splittedRead[2] + " " + splittedRead[3]);
+			
+			
+			if(splittedRead[0].equals("BUY"))
 			{
-				System.out.println("[ServerThread] REQ");
-				String client = inputString.readLine();
-				client = client.substring(0, client.length());
-				System.out.println("[ServerThread] Read Client" + client);
-				int stocks = inputData.readInt();
-				System.out.println("[ServerThread] Read stocks" + stocks);
-				int price = inputData.readInt();
-				System.out.println("[ServerThread] Read price" + price);
-				Request r = new Request(client, stocks, price);
+				System.out.println("[ServerThread] Processing Request...");
+				int stocks = Integer.parseInt(splittedRead[2]);
+				int price = Integer.parseInt(splittedRead[3]);
+				Request r = new Request(splittedRead[1], stocks, price);
 				server_.addTransaction(r);
 				
 				while(true)
 				{
-					Offer o = server_.find(r);
-					if (o != null)
+					System.out.println("[ServerThread] Waiting for request completion...");
+					Offer o;
+					if( ( o = server_.find(r)) !=null )
 					{
-						// Send Offer to buyer
-						outputString.println(o.getClientName());
-						outputData.writeInt(o.getNumberOfStocks());
-						outputData.writeInt(o.getPricePerStock());
+						System.out.println("[ServerThread] Request Completed...");
+						String write = o.getClientName() + " " + o.getNumberOfStocks() + " " + o.getPricePerStock();
+						outputString.println(write);
 						break;
 					}
-					Thread.sleep(100);
 				}
 			}
-			if(s.equals("OFF"))
+			else
 			{
-				System.out.println("[ServerThread] REQ");
-				String client = inputString.readLine();
-				client = client.substring(0, client.length());
-				System.out.println("[ServerThread] Read Client" + client);
-				int stocks = inputData.readInt();
-				System.out.println("[ServerThread] Read stocks" + stocks);
-				int price = inputData.readInt();
-				Offer r = new Offer(client, stocks, price);
-				System.out.println("[ServerThread] Read price" + price);
-				server_.addTransaction(r);
+				System.out.println("[ServerThread] Processing Offer...");
+				int stocks = Integer.parseInt(splittedRead[2]);
+				int price = Integer.parseInt(splittedRead[3]);
+				Offer off = new Offer(splittedRead[1], stocks, price);
+				server_.addTransaction(off);
 				
 				while(true)
 				{
-					Offer o = server_.find(client);
-					if (o == null)
+					System.out.println("[ServerThread] Waiting for offer completion...");
+					if( (server_.find(off.getClientName())) == null)
 					{
-						// Send Offer back to seller
-						outputString.println("Success!");
+						System.out.println("[ServerThread] Offer Completed...");
+						String write = off.getClientName() + " " + off.getNumberOfStocks() + " " + off.getPricePerStock();
+						outputString.println(write);
 						break;
 					}
-					Thread.sleep(100);
 				}
 			}
-		}
-		catch(InterruptedException a)
-		{
-			a.printStackTrace();
 		}
 		catch(IOException e)
 		{
