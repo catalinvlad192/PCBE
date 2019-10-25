@@ -1,0 +1,1451 @@
+#######Here is the transaction history
+[Server] Add transaction for Client111 SIZE: 1
+[Client] Client2 Wants to BUY Client2 1 1
+[Client] Client1 Wants to BUY Client1 1 1
+[Client] Client2Wants to SELL Client2 1 1
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client1Wants to SELL Client1 1 1
+[Server] Add transaction for Client322 SIZE: 2
+#######Here are all current transactions
+[Server] Add transaction for Client422 SIZE: 3
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Add transaction for Client211 SIZE: 4
+REQUEST Client1 1 1
+[Server] Add transaction for Client211 SIZE: 5
+#######Here is the transaction history
+[Server] Add transaction for Client422 SIZE: 6
+[Server] Removed REQ and OFFER. SIZE: 4
+[Server] Add transaction for Client322 SIZE: 5
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Server] Add transaction for Client111 SIZE: 6
+[Server] Removed REQ and OFFER. SIZE: 4
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Client] Sold. Current fortune is:   9 50001
+[Server] Removed REQ and OFFER. SIZE: 2
+[Client] Sold. Current fortune is:   8 50004
+Client3 bought from Client4
+[Server] Removed REQ and OFFER. SIZE: 0
+Client1 bought from Client2
+[Client] Client4 Bought from Client3 Current fortune is: 10 50000
+Client4 bought from Client3
+[Client] Sold. Current fortune is:   10 50000
+[Client] Sold. Current fortune is:   10 50000
+[Client] Client2 Bought from Client1 Current fortune is: 10 50000
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+#######Here are all current transactions
+#######Here is the transaction history
+Client3 bought from Client4
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1

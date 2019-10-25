@@ -25,5 +25,8 @@ public class Offer implements ITransaction
 	{
 		return pricePerStock_;
 	}
-	public boolean isForSale() {return true;}
+	public boolean isForSale()
+	{
+		return true;
+	}
 }

@@ -1,6 +1,7 @@
 package main;
 
-public class Request implements ITransaction {
+public class Request implements ITransaction
+{
 
 	private String clientName_;
 	private int numberOfStocks_;
@@ -25,5 +26,8 @@ public class Request implements ITransaction {
 	{
 		return pricePerStock_;
 	}
-	public boolean isForSale() {return false;}
+	public boolean isForSale()
+	{
+		return false;
+	}
 }

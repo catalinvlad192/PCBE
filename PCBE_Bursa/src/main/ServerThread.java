@@ -5,11 +5,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.ArrayList;
 
 public class ServerThread extends Thread
 {
 	private Socket client_;
 	private Server server_;
+	private Thread serverTransactionThread_;
 	
 	public ServerThread(Server server, Socket client)
 	{
@@ -19,57 +21,61 @@ public class ServerThread extends Thread
 	
 	public void run()
 	{
-		System.out.println("[ServerThread]Server communicates with Client and ClientThread");
 		try
 		{
-			PrintWriter outputString = new PrintWriter(client_.getOutputStream(), true);
 			BufferedReader inputString = new BufferedReader(new InputStreamReader(client_.getInputStream()));
-			// receive request or offer and send back message.
+			PrintWriter outputString = new PrintWriter(client_.getOutputStream(), true);
 			
-			String read = inputString.readLine();
-			String[] splittedRead = read.split(" ");
-			System.out.println("[ServerThread] Received transaction. Processing... ");
-			System.out.println("[ServerThread] " + splittedRead[0] + " " + splittedRead[1] + " " + splittedRead[2] + " " + splittedRead[3]);
-			
-			
-			if(splittedRead[0].equals("BUY"))
+			while (true)
 			{
-				System.out.println("[ServerThread] Processing Request...");
-				int stocks = Integer.parseInt(splittedRead[2]);
-				int price = Integer.parseInt(splittedRead[3]);
-				Request r = new Request(splittedRead[1], stocks, price);
-				server_.addTransaction(r);
-				
-				while(true)
+				String read = inputString.readLine();
+				if(read!=null && read.equals("START"))
 				{
-					System.out.println("[ServerThread] Waiting for request completion...");
-					Offer o;
-					if( ( o = server_.find(r)) !=null )
+					read = inputString.readLine();
+					
+					// if client wants to read transaction history, send it to him
+					if(read.equals("getTransactionHistory") )
 					{
-						System.out.println("[ServerThread] Request Completed...");
-						String write = o.getClientName() + " " + o.getNumberOfStocks() + " " + o.getPricePerStock();
-						outputString.println(write);
-						break;
+						ArrayList<String> history = server_.getTransactionHistory();
+						
+						for(String s : history)
+						{
+							outputString.println(s);
+						}
+						outputString.println("END");
 					}
-				}
-			}
-			else
-			{
-				System.out.println("[ServerThread] Processing Offer...");
-				int stocks = Integer.parseInt(splittedRead[2]);
-				int price = Integer.parseInt(splittedRead[3]);
-				Offer off = new Offer(splittedRead[1], stocks, price);
-				server_.addTransaction(off);
-				
-				while(true)
-				{
-					System.out.println("[ServerThread] Waiting for offer completion...");
-					if( (server_.find(off.getClientName())) == null)
+					// if client wants to read all current transactions, send them to him
+					else if(read.equals("getTransactions") )
 					{
-						System.out.println("[ServerThread] Offer Completed...");
-						String write = off.getClientName() + " " + off.getNumberOfStocks() + " " + off.getPricePerStock();
-						outputString.println(write);
-						break;
+						ArrayList<String> transactions = server_.getTransactions();
+						
+						for(String s : transactions)
+						{
+							outputString.println(s);
+						}
+						outputString.println("END");
+					}
+					// Else read the request and offer sent by the client, then start a thread for each to find matches for them
+					else
+					{
+						String[] splittedRead = read.split(" ");
+						int stocks = Integer.parseInt(splittedRead[2]);
+						int price = Integer.parseInt(splittedRead[3]);
+						
+						Request req = new Request(splittedRead[1], stocks, price);
+						server_.addTransaction(req);
+						serverTransactionThread_ = new Thread(new ServerTransactionThread(server_, client_, req));
+						serverTransactionThread_.start();
+
+						read = inputString.readLine();
+						splittedRead = read.split(" ");
+						stocks = Integer.parseInt(splittedRead[2]);
+						price = Integer.parseInt(splittedRead[3]);
+						
+						Offer off = new Offer(splittedRead[1], stocks, price);
+						server_.addTransaction(off);
+						serverTransactionThread_ = new Thread(new ServerTransactionThread(server_, client_, off));
+						serverTransactionThread_.start();
 					}
 				}
 			}
@@ -83,7 +89,8 @@ public class ServerThread extends Thread
 			try
 			{
 				client_.close();
-			} catch(IOException e)
+			}
+			catch(IOException e)
 			{
 				e.printStackTrace();
 			}

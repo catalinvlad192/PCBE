@@ -7,64 +7,98 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Server implements Runnable{
+public class Server implements Runnable
+{
 	
 	private HashMap<String, ITransaction> transactions_;
 	private ServerSocket serverSocket_;
+	private ArrayList<Pair<String, String>> transactionHistory_;
 	private ArrayList<Thread> listOfThreads_ = new ArrayList<Thread>();
 	
 	public Server()
 	{
 		transactions_ = new HashMap<String, ITransaction>();
+		transactionHistory_ = new ArrayList<Pair<String, String>>();
 	}
 	
-	public HashMap<String, ITransaction> getTransactions()
+	public synchronized ArrayList<String> getTransactionHistory()
 	{
-		return transactions_;
+		ArrayList<String> copy = new ArrayList<String>();
+		
+		for(Pair<String, String> entry : transactionHistory_)
+		{
+			String s = entry.first + " bought from " + entry.second;
+			copy.add(s);
+		}
+		return copy;
+	}
+	
+	public synchronized ArrayList<String> getTransactions()
+	{
+		ArrayList<String> copy = new ArrayList<String>();
+				
+		for (Map.Entry<String,ITransaction> entry : transactions_.entrySet())
+		{
+			if(entry.getValue().isForSale())
+			{
+				String s = "OFFER " + entry.getValue().getClientName() + " " + entry.getValue().getNumberOfStocks() + " " + entry.getValue().getPricePerStock();
+				copy.add(s);
+			}
+			else
+			{
+				String s = "REQUEST " + entry.getValue().getClientName() + " " + entry.getValue().getNumberOfStocks() + " " + entry.getValue().getPricePerStock();
+				copy.add(s);
+			}
+		}
+		return copy;
 	}
 	
 	public synchronized void addTransaction(ITransaction t)
 	{
-		System.out.println("[Server] Add transaction for " + t.getClientName());
-		transactions_.put(t.getClientName(), t);
-		notifyAll();
+		if(t.isForSale())
+		{
+			transactions_.put(t.getClientName() + "OFF", t);
+		}
+		else
+		{
+			transactions_.put(t.getClientName() + "REQ", t);
+		}
+		FilePrinter.printLine("[Server] Add transaction for " + t.getClientName() +t.getNumberOfStocks() + t.getPricePerStock()+ " SIZE: " + transactions_.size());
+		System.out.println("[Server] Add transaction for " + t.getClientName() +t.getNumberOfStocks() + t.getPricePerStock()+ " SIZE: " + transactions_.size());
 	}
 	
-	public synchronized Offer find(Request r)
+	// Find a suitable offer for this request, then delete both from transactions map
+	public Offer find(Request r)
 	{
-		// TODO:
-
-		for(Map.Entry<String, ITransaction> tr : transactions_.entrySet()) {
+		for(Map.Entry<String, ITransaction> tr : transactions_.entrySet())
+		{
 			ITransaction transaction = tr.getValue();
 			if(transaction.isForSale() && 
 					!(transaction.getClientName().equals(r.getClientName())) &&
-					transaction.getNumberOfStocks() >= r.getNumberOfStocks() &&
-					transaction.getPricePerStock() <= r.getPricePerStock())
+					transaction.getNumberOfStocks() == r.getNumberOfStocks() &&
+					transaction.getPricePerStock() == r.getPricePerStock())
 			{
 				Offer actualBought = null;
-				if(transaction.getNumberOfStocks() == r.getNumberOfStocks())
-				{
-					actualBought = new Offer(transaction.getClientName(), transaction.getNumberOfStocks(), transaction.getPricePerStock());
-					transactions_.remove(transaction.getClientName());
-				}
-				notifyAll();
+				actualBought = new Offer(transaction.getClientName(), transaction.getNumberOfStocks(), transaction.getPricePerStock());
+				transactionHistory_.add(new Pair<String, String>(r.getClientName(), transaction.getClientName()));
+				transactions_.remove(transaction.getClientName()+"OFF");
+				transactions_.remove(r.getClientName()+"REQ");
+				FilePrinter.printLine("[Server] Removed REQ and OFFER. SIZE: " + transactions_.size());
+				System.out.println("[Server] Removed REQ and OFFER. SIZE: " + transactions_.size());
 				return (Offer)actualBought;
 			}
 		}
-		notifyAll();
 		return null;
 	}
 	
-	public synchronized Offer find(String client)
+	// Check if your offer was bought by someone
+	public Offer find(String client)
 	{
-		// TODO:
-		ITransaction tr = transactions_.get(client);
+		ITransaction tr = transactions_.get(client + "OFF");
 		if( tr!=null && tr.isForSale() && tr.getClientName().equals(client))
 		{
-			notifyAll();
 			return (Offer)tr;	
 		}
-		notifyAll();
 		return null;
 	}
 
@@ -73,8 +107,6 @@ public class Server implements Runnable{
 		try
 		{
 			serverSocket_ = new ServerSocket(15432);
-			System.out.println("[Server] Server started for port 15432");
-			
 			while(true)
 			{
 				Socket client = serverSocket_.accept();
@@ -82,10 +114,9 @@ public class Server implements Runnable{
 				Thread thread = new Thread(new ServerThread(this, client));
 				listOfThreads_.add(thread);
 				thread.start();
-				System.out.println("[Server] New thread started");
 			}
-			
-		} catch(IOException e)
+		}
+		catch(IOException e)
 		{
 			e.printStackTrace();
 		}
