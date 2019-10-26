@@ -1,0 +1,1533 @@
+#######Here is the transaction history
+#######Here are all current transactions
+#######Here is the transaction history
+#######Here are all current transactions
+[Client] Client2 Wants to BUY Client2 1 1
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client2Wants to SELL Client2 1 1
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client3Wants to SELL Client3 2 2
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client1 Wants to BUY Client1 1 1
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client1Wants to SELL Client1 1 1
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client111 SIZE: 1
+[Server] Add transaction for Client422 SIZE: 2
+REQUEST Client1 1 1
+[Server] Add transaction for Client533 SIZE: 3
+[Server] Add transaction for Client211 SIZE: 4
+#######Here is the transaction history
+[Server] Add transaction for Client322 SIZE: 5
+[Server] Add transaction for Client633 SIZE: 6
+[Server] Add transaction for Client533 SIZE: 7
+[Server] Add transaction for Client111 SIZE: 8
+[Server] Add transaction for Client422 SIZE: 9
+#######Here are all current transactions
+REQUEST Client2 1 1
+[Server] Add transaction for Client211 SIZE: 10
+REQUEST Client6 3 3
+OFFER Client5 3 3
+REQUEST Client4 2 2
+REQUEST Client5 3 3
+REQUEST Client3 2 2
+OFFER Client1 1 1
+OFFER Client4 2 2
+REQUEST Client1 1 1
+#######Here is the transaction history
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 8
+[Server] Add transaction for Client322 SIZE: 9
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 7
+[Server] Add transaction for Client633 SIZE: 8
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 6
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 4
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 2
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 0
+[Client] Client2 SOLD. Current fortune is: 9 50001
+Client1 bought from Client2
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Client] Client2 Bought from Client1 Current fortune is: 10 50000
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+[Client] Client6 The two transactions were completed!
+[Client] Client4 The two transactions were completed!
+[Client] Client3 The two transactions were completed!
+[Client] Client2 The two transactions were completed!
+[Client] Client1 The two transactions were completed!
+[Client] Client2 Wants to BUY Client2 1 1
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client1 Wants to BUY Client1 1 1
+[Server] Add transaction for Client211 SIZE: 1
+[Client] Client6 Wants to BUY Client6 3 3
+[Server] Add transaction for Client111 SIZE: 2
+[Client] Client3 Wants to BUY Client3 2 2
+[Server] Add transaction for Client422 SIZE: 3
+[Server] Add transaction for Client633 SIZE: 4
+[Client] Client5 Wants to BUY Client5 3 3
+[Server] Add transaction for Client322 SIZE: 5
+[Server] Add transaction for Client533 SIZE: 6
+[Client] Client2Wants to SELL Client2 1 1
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+#######Here are all current transactions
+REQUEST Client2 1 1
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client533 SIZE: 7
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 5
+REQUEST Client6 3 3
+REQUEST Client4 2 2
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client1Wants to SELL Client1 1 1
+REQUEST Client5 3 3
+REQUEST Client3 2 2
+REQUEST Client1 1 1
+[Server] Add transaction for Client422 SIZE: 6
+#######Here is the transaction history
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Add transaction for Client111 SIZE: 7
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 5
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Client] Client6Wants to SELL Client6 3 3
+[Server] Add transaction for Client633 SIZE: 6
+[Server] Add transaction for Client322 SIZE: 7
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 5
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 3
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Server] Add transaction for Client211 SIZE: 4
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 2
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 0
+[Client] Client3Wants to SELL Client3 2 2
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client5Wants to SELL Client5 3 3
+[Client] Client1Wants to SELL Client1 1 1
+Client1 bought from Client2
+[Client] Client4Wants to SELL Client4 2 2
+[Server] Add transaction for Client322 SIZE: 1
+[Client] Client6Wants to SELL Client6 3 3
+[Server] Add transaction for Client633 SIZE: 2
+[Server] Add transaction for Client111 SIZE: 3
+[Server] Add transaction for Client422 SIZE: 4
+[Server] Add transaction for Client533 SIZE: 5
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+[Client] Client2 SOLD. Current fortune is: 10 50000
+Client1 bought from Client2
+[Client] Client2 The two transactions were completed!
+Client2 bought from Client1
+[Client] Client2 Wants to BUY Client2 1 1
+[Server] Add transaction for Client211 SIZE: 6
+#######Here are all current transactions
+[Server] Add transaction for Client533 SIZE: 7
+[Server] Add transaction for Client422 SIZE: 8
+REQUEST Client2 1 1
+[Server] Add transaction for Client111 SIZE: 9
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 7
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Server] Add transaction for Client633 SIZE: 8
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 6
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Server] Add transaction for Client322 SIZE: 7
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 5
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 3
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+REQUEST Client6 3 3
+OFFER Client5 3 3
+REQUEST Client4 2 2
+REQUEST Client5 3 3
+REQUEST Client3 2 2
+OFFER Client4 2 2
+REQUEST Client1 1 1
+#######Here is the transaction history
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+[Server] Add transaction for Client422 SIZE: 4
+[Server] Add transaction for Client633 SIZE: 5
+[Client] Client5 SOLD. Current fortune is: 10 50000
+Client1 bought from Client2
+[Client] Client5 The two transactions were completed!
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 3
+[Server] Add transaction for Client533 SIZE: 4
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client2Wants to SELL Client2 1 1
+[Server] Add transaction for Client211 SIZE: 5
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 3
+[Client] Client1 SOLD. Current fortune is: 9 50001
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client533 SIZE: 4
+[Client] Client2 SOLD. Current fortune is: 10 50000
+[Client] Client2 The two transactions were completed!
+[Client] Client2 Wants to BUY Client2 1 1
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 2
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+#######Here are all current transactions
+[Client] Client1 Bought from Client2 Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Server] Add transaction for Client111 SIZE: 3
+[Client] Client1 Wants to BUY Client1 1 1
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Server] Add transaction for Client211 SIZE: 4
+[Server] Add transaction for Client633 SIZE: 5
+[Server] Add transaction for Client422 SIZE: 6
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 4
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Server] Add transaction for Client322 SIZE: 5
+REQUEST Client2 1 1
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client1Wants to SELL Client1 1 1
+[Client] Client6 Wants to BUY Client6 3 3
+REQUEST Client4 2 2
+OFFER Client4 2 2
+REQUEST Client3 2 2
+REQUEST Client1 1 1
+#######Here is the transaction history
+[Server] Add transaction for Client111 SIZE: 6
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 4
+[Client] Client2Wants to SELL Client2 1 1
+[Server] Add transaction for Client211 SIZE: 5
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 3
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Server] Add transaction for Client633 SIZE: 4
+[Client] Client5 The two transactions were completed!
+[Server] Add transaction for Client533 SIZE: 5
+[Client] Client5 Wants to BUY Client5 3 3
+Client1 bought from Client2
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client2 SOLD. Current fortune is: 10 50000
+[Client] Client2 The two transactions were completed!
+[Client] Client2 Wants to BUY Client2 1 1
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 3
+[Client] Client4 SOLD. Current fortune is: 8 50004
+Client6 bought from Client5
+[Client] Client3Wants to SELL Client3 2 2
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+[Client] Client1Wants to SELL Client1 1 1
+Client2 bought from Client1
+[Server] Add transaction for Client322 SIZE: 4
+Client1 bought from Client2
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+#######Here are all current transactions
+[Client] Client2Wants to SELL Client2 1 1
+[Server] Add transaction for Client111 SIZE: 3
+[Server] Add transaction for Client211 SIZE: 4
+[Client] Client5Wants to SELL Client5 3 3
+[Client] Client4 Bought from Client3 Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Server] Add transaction for Client422 SIZE: 5
+[Client] Client4 Wants to BUY Client4 2 2
+[Server] Add transaction for Client533 SIZE: 6
+REQUEST Client2 1 1
+[Server] Add transaction for Client633 SIZE: 7
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 5
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 3
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Client] Client4Wants to SELL Client4 2 2
+[Server] Add transaction for Client422 SIZE: 4
+[Server] Add transaction for Client211 SIZE: 5
+[Server] Add transaction for Client111 SIZE: 6
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 4
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+REQUEST Client6 3 3
+OFFER Client5 3 3
+REQUEST Client5 3 3
+REQUEST Client4 2 2
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 2
+REQUEST Client1 1 1
+#######Here is the transaction history
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+[Client] Client5 Wants to BUY Client5 3 3
+[Server] Add transaction for Client533 SIZE: 3
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Server] Add transaction for Client322 SIZE: 4
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Server] Add transaction for Client111 SIZE: 5
+Client1 bought from Client2
+[Client] Client2 SOLD. Current fortune is: 10 50000
+[Client] Client2 The two transactions were completed!
+[Client] Client2 Wants to BUY Client2 1 1
+[Server] Add transaction for Client211 SIZE: 6
+[Client] Client2Wants to SELL Client2 1 1
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Server] Add transaction for Client633 SIZE: 7
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+#######Here are all current transactions
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Add transaction for Client211 SIZE: 8
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 6
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 4
+REQUEST Client2 1 1
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Server] Add transaction for Client322 SIZE: 5
+[Client] Client1Wants to SELL Client1 1 1
+[Server] Add transaction for Client111 SIZE: 6
+[Client] Client4 SOLD. Current fortune is: 8 50004
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 4
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 2
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client533 SIZE: 3
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+REQUEST Client6 3 3
+[Client] Client4 Bought from Client3 Current fortune is: 10 50000
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client4 The two transactions were completed!
+REQUEST Client4 2 2
+[Client] Client4 Wants to BUY Client4 2 2
+REQUEST Client5 3 3
+OFFER Client4 2 2
+REQUEST Client3 2 2
+#######Here is the transaction history
+[Client] Client2 SOLD. Current fortune is: 10 50000
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client2 The two transactions were completed!
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 1
+[Client] Client2 Wants to BUY Client2 1 1
+[Server] Add transaction for Client633 SIZE: 2
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 0
+[Client] Client4Wants to SELL Client4 2 2
+[Server] Add transaction for Client422 SIZE: 1
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Server] Add transaction for Client211 SIZE: 2
+[Client] Client1Wants to SELL Client1 1 1
+[Server] Add transaction for Client422 SIZE: 3
+[Server] Add transaction for Client111 SIZE: 4
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Server] Add transaction for Client322 SIZE: 5
+[Client] Client5 The two transactions were completed!
+[Client] Client5 Wants to BUY Client5 3 3
+Client1 bought from Client2
+[Client] Client2Wants to SELL Client2 1 1
+[Server] Add transaction for Client211 SIZE: 6
+[Server] Add transaction for Client533 SIZE: 7
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 5
+[Client] Client5Wants to SELL Client5 3 3
+[Client] Client6Wants to SELL Client6 3 3
+Client6 bought from Client5
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Server] Add transaction for Client111 SIZE: 6
+Client5 bought from Client6
+[Server] Add transaction for Client322 SIZE: 7
+#######Here are all current transactions
+[Server] Add transaction for Client533 SIZE: 8
+[Server] Add transaction for Client633 SIZE: 9
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 7
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 5
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 3
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 1
+[Server] Add transaction for Client633 SIZE: 2
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 0
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Client] Client2 SOLD. Current fortune is: 10 50000
+#######Here is the transaction history
+[Server] Add transaction for Client422 SIZE: 1
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client2 The two transactions were completed!
+[Server] Add transaction for Client211 SIZE: 2
+[Client] Client2 Wants to BUY Client2 1 1
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Server] Add transaction for Client322 SIZE: 3
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Server] Add transaction for Client111 SIZE: 4
+[Client] Client1 Wants to BUY Client1 1 1
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Add transaction for Client322 SIZE: 5
+[Client] Client2Wants to SELL Client2 1 1
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+[Server] Add transaction for Client211 SIZE: 6
+[Server] Add transaction for Client533 SIZE: 7
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client4Wants to SELL Client4 2 2
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 5
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+Client1 bought from Client2
+[Server] Add transaction for Client422 SIZE: 6
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 4
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client533 SIZE: 5
+[Client] Client1Wants to SELL Client1 1 1
+Client6 bought from Client5
+[Client] Client4 SOLD. Current fortune is: 10 50000
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+[Client] Client4 The two transactions were completed!
+[Client] Client3 SOLD. Current fortune is: 10 50000
+Client4 bought from Client3
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client3 The two transactions were completed!
+Client2 bought from Client1
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 3
+Client3 bought from Client4
+Client6 bought from Client5
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+Client5 bought from Client6
+Client4 bought from Client3
+#######Here are all current transactions
+[Client] Client2 SOLD. Current fortune is: 9 50001
+[Server] Add transaction for Client111 SIZE: 4
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 2
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Add transaction for Client633 SIZE: 3
+[Client] Client6Wants to SELL Client6 3 3
+[Server] Add transaction for Client633 SIZE: 4
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 2
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 0
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Server] Add transaction for Client422 SIZE: 1
+[Client] Client2 Bought from Client1 Current fortune is: 10 50000
+[Client] Client2 The two transactions were completed!
+[Server] Add transaction for Client322 SIZE: 2
+REQUEST Client4 2 2
+[Server] Add transaction for Client211 SIZE: 3
+[Client] Client2 Wants to BUY Client2 1 1
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client2Wants to SELL Client2 1 1
+[Client] Client1 The two transactions were completed!
+[Client] Client5 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Server] Add transaction for Client533 SIZE: 4
+[Client] Client5 Wants to BUY Client5 3 3
+[Server] Add transaction for Client211 SIZE: 5
+#######Here is the transaction history
+[Server] Add transaction for Client322 SIZE: 6
+[Server] Add transaction for Client422 SIZE: 7
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 5
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 3
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client111 SIZE: 4
+Client1 bought from Client2
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Server] Add transaction for Client533 SIZE: 5
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client3 The two transactions were completed!
+[Server] Add transaction for Client422 SIZE: 6
+[Client] Client1Wants to SELL Client1 1 1
+[Server] Add transaction for Client633 SIZE: 7
+[Client] Client3 Wants to BUY Client3 2 2
+[Server] Add transaction for Client322 SIZE: 8
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Add transaction for Client322 SIZE: 9
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 7
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+[Client] Client4Wants to SELL Client4 2 2
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client1 bought from Client2
+Client2 bought from Client1
+Client5 bought from Client6
+Client6 bought from Client5
+Client4 bought from Client3
+Client3 bought from Client4
+#######Here are all current transactions
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 5
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Client] Client5 SOLD. Current fortune is: 7 50009
+[Server] Add transaction for Client111 SIZE: 6
+[Server] Add transaction for Client422 SIZE: 7
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 5
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 3
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 1
+[Server] Add transaction for Client633 SIZE: 2
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 0
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client5 Bought from Client6 Current fortune is: 10 50000
+#######Here is the transaction history
+[Client] Client5 The two transactions were completed!
+[Server] Add transaction for Client533 SIZE: 1
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client2 SOLD. Current fortune is: 10 50000
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Client] Client2 The two transactions were completed!
+[Client] Client3 The two transactions were completed!
+[Client] Client5Wants to SELL Client5 3 3
+[Client] Client3 Wants to BUY Client3 2 2
+[Server] Add transaction for Client111 SIZE: 2
+[Client] Client1 Wants to BUY Client1 1 1
+[Client] Client2 Wants to BUY Client2 1 1
+[Server] Add transaction for Client211 SIZE: 3
+[Server] Add transaction for Client533 SIZE: 4
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Server] Add transaction for Client633 SIZE: 5
+[Client] Client2Wants to SELL Client2 1 1
+[Server] Add transaction for Client211 SIZE: 6
+[Client] Client1Wants to SELL Client1 1 1
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 4
+[Server] Add transaction for Client111 SIZE: 5
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 3
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+Client1 bought from Client2
+[Server] Add transaction for Client422 SIZE: 4
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 2
+[Server] Add transaction for Client322 SIZE: 3
+[Server] Add transaction for Client633 SIZE: 4
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 2
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Client] Client5 SOLD. Current fortune is: 7 50009
+[Client] Client6Wants to SELL Client6 3 3
+[Server] Add transaction for Client422 SIZE: 3
+[Client] Client2 SOLD. Current fortune is: 10 50000
+[Client] Client2 The two transactions were completed!
+[Client] Client2 Wants to BUY Client2 1 1
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client1 bought from Client2
+Client2 bought from Client1
+Client5 bought from Client6
+Client6 bought from Client5
+Client4 bought from Client3
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+#######Here are all current transactions
+[Client] Client5 Bought from Client6 Current fortune is: 10 50000
+[Client] Client2Wants to SELL Client2 1 1
+[Client] Client5 The two transactions were completed!
+[Client] Client5 Wants to BUY Client5 3 3
+[Server] Add transaction for Client533 SIZE: 4
+[Server] Add transaction for Client322 SIZE: 5
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 3
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 1
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Client] Client6 The two transactions were completed!
+[Server] Add transaction for Client633 SIZE: 2
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Server] Add transaction for Client211 SIZE: 3
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client533 SIZE: 4
+[Client] Client1 Wants to BUY Client1 1 1
+REQUEST Client2 1 1
+[Server] Add transaction for Client211 SIZE: 5
+[Client] Client6Wants to SELL Client6 3 3
+[Server] Add transaction for Client111 SIZE: 6
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+[Server] Add transaction for Client422 SIZE: 7
+REQUEST Client6 3 3
+OFFER Client5 3 3
+REQUEST Client5 3 3
+#######Here is the transaction history
+[Server] Add transaction for Client633 SIZE: 8
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 6
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 4
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Server] Add transaction for Client322 SIZE: 5
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client4Wants to SELL Client4 2 2
+[Server] Add transaction for Client422 SIZE: 6
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 4
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+Client1 bought from Client2
+[Server] Add transaction for Client533 SIZE: 5
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client2 SOLD. Current fortune is: 9 50001
+[Client] Client1Wants to SELL Client1 1 1
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Server] Add transaction for Client111 SIZE: 6
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 4
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client5Wants to SELL Client5 3 3
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Server] Add transaction for Client533 SIZE: 5
+[Client] Client1Wants to SELL Client1 1 1
+[Client] Client3Wants to SELL Client3 2 2
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+[Client] Client2 Bought from Client1 Current fortune is: 10 50000
+[Server] Add transaction for Client322 SIZE: 6
+Client4 bought from Client3
+Client1 bought from Client2
+[Client] Client2 The two transactions were completed!
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client1 bought from Client2
+Client2 bought from Client1
+Client5 bought from Client6
+Client6 bought from Client5
+Client4 bought from Client3
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+Client4 bought from Client3
+Client5 bought from Client6
+Client6 bought from Client5
+Client1 bought from Client2
+#######Here are all current transactions
+[Client] Client2 Wants to BUY Client2 1 1
+[Server] Add transaction for Client211 SIZE: 7
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 5
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Server] Add transaction for Client633 SIZE: 6
+[Server] Add transaction for Client111 SIZE: 7
+[Client] Client3 SOLD. Current fortune is: 8 50004
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 5
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client4 SOLD. Current fortune is: 10 50000
+REQUEST Client2 1 1
+[Client] Client4 The two transactions were completed!
+[Server] Add transaction for Client422 SIZE: 6
+[Server] Add transaction for Client111 SIZE: 7
+[Client] Client4 Wants to BUY Client4 2 2
+[Client] Client3 Bought from Client4 Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 5
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Server] Add transaction for Client633 SIZE: 6
+[Client] Client5 SOLD. Current fortune is: 7 50009
+[Client] Client2Wants to SELL Client2 1 1
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 4
+[Server] Add transaction for Client211 SIZE: 5
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 3
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 1
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+REQUEST Client6 3 3
+OFFER Client5 3 3
+REQUEST Client5 3 3
+REQUEST Client1 1 1
+#######Here is the transaction history
+[Client] Client5 Bought from Client6 Current fortune is: 10 50000
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Server] Add transaction for Client322 SIZE: 2
+[Client] Client5 The two transactions were completed!
+[Server] Add transaction for Client533 SIZE: 3
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client3Wants to SELL Client3 2 2
+[Client] Client4Wants to SELL Client4 2 2
+[Server] Add transaction for Client422 SIZE: 4
+[Client] Client1 SOLD. Current fortune is: 10 50000
+Client1 bought from Client2
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Server] Add transaction for Client111 SIZE: 5
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client633 SIZE: 6
+[Server] Add transaction for Client533 SIZE: 7
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 5
+Client6 bought from Client5
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Server] Add transaction for Client322 SIZE: 6
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+[Client] Client2 SOLD. Current fortune is: 10 50000
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+[Client] Client2 The two transactions were completed!
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client1 bought from Client2
+Client2 bought from Client1
+Client5 bought from Client6
+Client6 bought from Client5
+Client4 bought from Client3
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+Client4 bought from Client3
+Client5 bought from Client6
+Client6 bought from Client5
+Client1 bought from Client2
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+#######Here are all current transactions
+[Client] Client2 Wants to BUY Client2 1 1
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 4
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Server] Add transaction for Client633 SIZE: 5
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 3
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 1
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+REQUEST Client1 1 1
+[Server] Add transaction for Client211 SIZE: 2
+[Client] Client1Wants to SELL Client1 1 1
+[Server] Add transaction for Client111 SIZE: 3
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+[Server] Add transaction for Client533 SIZE: 4
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+[Server] Add transaction for Client422 SIZE: 5
+[Client] Client2Wants to SELL Client2 1 1
+[Server] Add transaction for Client211 SIZE: 6
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 4
+[Client] Client1 SOLD. Current fortune is: 9 50001
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 2
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Client] Client6 Wants to BUY Client6 3 3
+[Server] Add transaction for Client633 SIZE: 3
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client3Wants to SELL Client3 2 2
+[Client] Client4Wants to SELL Client4 2 2
+[Server] Add transaction for Client422 SIZE: 4
+[Client] Client5Wants to SELL Client5 3 3
+#######Here is the transaction history
+[Server] Add transaction for Client533 SIZE: 5
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 3
+[Client] Client5 SOLD. Current fortune is: 7 50009
+[Client] Client2 SOLD. Current fortune is: 10 50000
+[Client] Client2 The two transactions were completed!
+[Client] Client2 Wants to BUY Client2 1 1
+[Client] Client6Wants to SELL Client6 3 3
+[Server] Add transaction for Client633 SIZE: 4
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 2
+[Server] Add transaction for Client322 SIZE: 3
+Client1 bought from Client2
+[Client] Client1 Bought from Client2 Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Client] Client2Wants to SELL Client2 1 1
+[Client] Client5 Bought from Client6 Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+[Client] Client1Wants to SELL Client1 1 1
+[Client] Client5 Wants to BUY Client5 3 3
+[Server] Add transaction for Client211 SIZE: 4
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 2
+[Server] Add transaction for Client322 SIZE: 3
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 1
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Server] Add transaction for Client633 SIZE: 2
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+Client6 bought from Client5
+[Server] Add transaction for Client211 SIZE: 3
+Client5 bought from Client6
+[Client] Client5Wants to SELL Client5 3 3
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client1 bought from Client2
+Client2 bought from Client1
+Client5 bought from Client6
+Client6 bought from Client5
+Client4 bought from Client3
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+Client4 bought from Client3
+Client5 bought from Client6
+Client6 bought from Client5
+Client1 bought from Client2
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+#######Here are all current transactions
+[Server] Add transaction for Client111 SIZE: 4
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Server] Add transaction for Client322 SIZE: 5
+[Server] Add transaction for Client533 SIZE: 6
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+[Server] Add transaction for Client422 SIZE: 7
+[Client] Client6Wants to SELL Client6 3 3
+[Server] Add transaction for Client633 SIZE: 8
+REQUEST Client2 1 1
+[Client] Client4Wants to SELL Client4 2 2
+[Server] Add transaction for Client422 SIZE: 9
+REQUEST Client6 3 3
+REQUEST Client5 3 3
+REQUEST Client4 2 2
+OFFER Client6 3 3
+REQUEST Client3 2 2
+OFFER Client2 1 1
+REQUEST Client1 1 1
+#######Here is the transaction history
+[Server] Add transaction for Client533 SIZE: 10
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 8
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 6
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 4
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Server] Add transaction for Client322 SIZE: 5
+[Client] Client4 SOLD. Current fortune is: 8 50004
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 3
+Client1 bought from Client2
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 1
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Server] Add transaction for Client111 SIZE: 2
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 0
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Client] Client5 SOLD. Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+[Server] Add transaction for Client533 SIZE: 1
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client4 Bought from Client3 Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+[Server] Add transaction for Client422 SIZE: 2
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client5Wants to SELL Client5 3 3
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Server] Add transaction for Client633 SIZE: 3
+[Server] Add transaction for Client533 SIZE: 4
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client1 bought from Client2
+Client2 bought from Client1
+Client5 bought from Client6
+Client6 bought from Client5
+Client4 bought from Client3
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+Client4 bought from Client3
+Client5 bought from Client6
+Client6 bought from Client5
+Client1 bought from Client2
+[Client] Client2 SOLD. Current fortune is: 10 50000
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+Client4 bought from Client3
+#######Here are all current transactions
+[Client] Client2 The two transactions were completed!
+[Client] Client2 Wants to BUY Client2 1 1
+[Server] Add transaction for Client211 SIZE: 5
+[Client] Client1 SOLD. Current fortune is: 10 50000
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Server] Add transaction for Client111 SIZE: 6
+[Client] Client2Wants to SELL Client2 1 1
+[Server] Add transaction for Client211 SIZE: 7
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 5
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client5 SOLD. Current fortune is: 7 50009
+[Server] Add transaction for Client633 SIZE: 6
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 4
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client3Wants to SELL Client3 2 2
+[Client] Client1Wants to SELL Client1 1 1
+REQUEST Client2 1 1
+[Server] Add transaction for Client422 SIZE: 5
+[Server] Add transaction for Client322 SIZE: 6
+[Server] Add transaction for Client111 SIZE: 7
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 5
+[Client] Client2 SOLD. Current fortune is: 9 50001
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 3
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client6Wants to SELL Client6 3 3
+[Client] Client5 Bought from Client6 Current fortune is: 10 50000
+[Client] Client5 The two transactions were completed!
+[Client] Client5 Wants to BUY Client5 3 3
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Client] Client5Wants to SELL Client5 3 3
+[Server] Add transaction for Client322 SIZE: 4
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 2
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 0
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+REQUEST Client4 2 2
+REQUEST Client1 1 1
+OFFER Client2 1 1
+[Client] Client1 SOLD. Current fortune is: 10 50000
+#######Here is the transaction history
+[Client] Client2 Bought from Client1 Current fortune is: 10 50000
+[Server] Add transaction for Client633 SIZE: 1
+[Client] Client2 The two transactions were completed!
+[Server] Add transaction for Client211 SIZE: 2
+[Client] Client2 Wants to BUY Client2 1 1
+[Client] Client1 The two transactions were completed!
+[Client] Client1 Wants to BUY Client1 1 1
+[Server] Add transaction for Client533 SIZE: 3
+[Client] Client1Wants to SELL Client1 1 1
+[Client] Client2Wants to SELL Client2 1 1
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Server] Add transaction for Client211 SIZE: 4
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client4 Wants to BUY Client4 2 2
+[Server] Add transaction for Client422 SIZE: 5
+[Server] Add transaction for Client322 SIZE: 6
+[Server] Add transaction for Client633 SIZE: 7
+[Server] Add transaction for Client111 SIZE: 8
+Client1 bought from Client2
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client3Wants to SELL Client3 2 2
+[Server] Add transaction for Client322 SIZE: 9
+[Server] Add transaction for Client422 SIZE: 10
+[Server] Removed REQClient3 and OFFERClient4 SIZE: 8
+[Client] Client3 Bought from Client4 Current fortune is: 12 49996
+[Server] Removed REQClient4 and OFFERClient3 SIZE: 6
+[Client] Client4 Bought from Client3 Current fortune is: 12 49996
+Client6 bought from Client5
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client5 bought from Client6
+Client6 bought from Client5
+Client3 bought from Client4
+Client5 bought from Client6
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client1 bought from Client2
+Client3 bought from Client4
+Client4 bought from Client3
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client4 bought from Client3
+Client2 bought from Client1
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client4 bought from Client3
+Client3 bought from Client4
+Client1 bought from Client2
+Client2 bought from Client1
+Client5 bought from Client6
+Client6 bought from Client5
+Client4 bought from Client3
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client2 bought from Client1
+Client1 bought from Client2
+Client3 bought from Client4
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+[Server] Add transaction for Client533 SIZE: 7
+Client4 bought from Client3
+[Server] Removed REQClient6 and OFFERClient5 SIZE: 5
+Client5 bought from Client6
+Client6 bought from Client5
+Client1 bought from Client2
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client3 bought from Client4
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client2 bought from Client1
+Client1 bought from Client2
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+[Client] Client6 Bought from Client5 Current fortune is: 13 49991
+Client4 bought from Client3
+Client6 bought from Client5
+Client5 bought from Client6
+Client3 bought from Client4
+Client4 bought from Client3
+Client1 bought from Client2
+Client2 bought from Client1
+Client6 bought from Client5
+Client5 bought from Client6
+Client1 bought from Client2
+Client2 bought from Client1
+Client4 bought from Client3
+Client3 bought from Client4
+#######Here are all current transactions
+[Server] Removed REQClient5 and OFFERClient6 SIZE: 3
+[Client] Client5 Bought from Client6 Current fortune is: 13 49991
+[Client] Client3 SOLD. Current fortune is: 10 50000
+[Client] Client3 The two transactions were completed!
+[Client] Client3 Wants to BUY Client3 2 2
+[Client] Client4 SOLD. Current fortune is: 10 50000
+[Client] Client4 The two transactions were completed!
+[Client] Client4 Wants to BUY Client4 2 2
+REQUEST Client2 1 1
+[Server] Removed REQClient1 and OFFERClient2 SIZE: 1
+[Server] Add transaction for Client111 SIZE: 2
+[Client] Client1 Bought from Client2 Current fortune is: 11 49999
+[Server] Removed REQClient2 and OFFERClient1 SIZE: 0
+[Client] Client2 Bought from Client1 Current fortune is: 11 49999
+[Client] Client6 SOLD. Current fortune is: 10 50000
+[Client] Client6 The two transactions were completed!
+[Server] Add transaction for Client633 SIZE: 1
+[Client] Client6 Wants to BUY Client6 3 3
+[Client] Client4Wants to SELL Client4 2 2
+[Client] Client3Wants to SELL Client3 2 2
