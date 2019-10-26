@@ -52,5 +52,12 @@ public class Main
 		Client client4 = new Client("Client4", 2, false);
 		Thread clientTh4 = new Thread(client4);
 		clientTh4.start();
+
+		Client client5 = new Client("Client5", 3, false);
+		Thread clientTh5 = new Thread(client5);
+		clientTh5.start();
+		Client client6 = new Client("Client6", 3, false);
+		Thread clientTh6 = new Thread(client6);
+		clientTh6.start();
 	}
 }

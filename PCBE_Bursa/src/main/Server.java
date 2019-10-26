@@ -41,12 +41,14 @@ public class Server implements Runnable
 		{
 			if(entry.getValue().isForSale())
 			{
-				String s = "OFFER " + entry.getValue().getClientName() + " " + entry.getValue().getNumberOfStocks() + " " + entry.getValue().getPricePerStock();
+				String s = "OFFER " + entry.getValue().getClientName() + " " + entry.getValue().getNumberOfStocks()
+						+ " " + entry.getValue().getPricePerStock();
 				copy.add(s);
 			}
 			else
 			{
-				String s = "REQUEST " + entry.getValue().getClientName() + " " + entry.getValue().getNumberOfStocks() + " " + entry.getValue().getPricePerStock();
+				String s = "REQUEST " + entry.getValue().getClientName() + " " + entry.getValue().getNumberOfStocks()
+						+ " " + entry.getValue().getPricePerStock();
 				copy.add(s);
 			}
 		}
@@ -63,8 +65,10 @@ public class Server implements Runnable
 		{
 			transactions_.put(t.getClientName() + "REQ", t);
 		}
-		FilePrinter.printLine("[Server] Add transaction for " + t.getClientName() +t.getNumberOfStocks() + t.getPricePerStock()+ " SIZE: " + transactions_.size());
-		System.out.println("[Server] Add transaction for " + t.getClientName() +t.getNumberOfStocks() + t.getPricePerStock()+ " SIZE: " + transactions_.size());
+		FilePrinter.printLine("[Server] Add transaction for " + t.getClientName()
+				+t.getNumberOfStocks() + t.getPricePerStock()+ " SIZE: " + transactions_.size());
+		System.out.println("[Server] Add transaction for " + t.getClientName()
+				+t.getNumberOfStocks() + t.getPricePerStock()+ " SIZE: " + transactions_.size());
 	}
 	
 	// Find a suitable offer for this request, then delete both from transactions map
@@ -79,12 +83,15 @@ public class Server implements Runnable
 					transaction.getPricePerStock() == r.getPricePerStock())
 			{
 				Offer actualBought = null;
-				actualBought = new Offer(transaction.getClientName(), transaction.getNumberOfStocks(), transaction.getPricePerStock());
+				actualBought = new Offer(transaction.getClientName(), transaction.getNumberOfStocks(),
+						transaction.getPricePerStock());
 				transactionHistory_.add(new Pair<String, String>(r.getClientName(), transaction.getClientName()));
 				transactions_.remove(transaction.getClientName()+"OFF");
 				transactions_.remove(r.getClientName()+"REQ");
-				FilePrinter.printLine("[Server] Removed REQ and OFFER. SIZE: " + transactions_.size());
-				System.out.println("[Server] Removed REQ and OFFER. SIZE: " + transactions_.size());
+				FilePrinter.printLine("[Server] Removed REQ" + r.getClientName() + " and OFFER"
+						+ transaction.getClientName() + " SIZE: " + transactions_.size());
+				System.out.println("[Server] Removed REQ" + r.getClientName() + " and OFFER"
+						+ transaction.getClientName() + " SIZE: " + transactions_.size());
 				return (Offer)actualBought;
 			}
 		}

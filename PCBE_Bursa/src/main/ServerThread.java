@@ -55,7 +55,8 @@ public class ServerThread extends Thread
 						}
 						outputString.println("END");
 					}
-					// Else read the request and offer sent by the client, then start a thread for each to find matches for them
+					// Else read the request and offer sent by the client, then start a thread
+					// for each to find matches for them
 					else
 					{
 						String[] splittedRead = read.split(" ");
@@ -88,6 +89,7 @@ public class ServerThread extends Thread
 		{
 			try
 			{
+				System.out.println("#$#$#$$#$#$#$#$#$#$#$#$#$CLOSED SOCKET");
 				client_.close();
 			}
 			catch(IOException e)

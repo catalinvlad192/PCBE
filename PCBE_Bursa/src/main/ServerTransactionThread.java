@@ -28,12 +28,13 @@ public class ServerTransactionThread extends Thread
 			{
 				while(true)
 				{
-					Offer o;
 					synchronized(server_)
 					{	
-						if( ( o = server_.find((Request) transaction_)) !=null )
+						Offer o = server_.find((Request) transaction_);
+						if( o !=null )
 						{
-							String write = "YOUBOUGHT " + o.getClientName() + " " + o.getNumberOfStocks() + " " + o.getPricePerStock();
+							String write = "YOUBOUGHT " + o.getClientName() + " " + o.getNumberOfStocks()
+									+ " " + o.getPricePerStock();
 							outputString.println(write);
 							break;
 						}
@@ -47,9 +48,11 @@ public class ServerTransactionThread extends Thread
 				{
 					synchronized(server_)
 					{
-						if( (server_.find(transaction_.getClientName())) == null)
+						Offer o = server_.find(transaction_.getClientName());
+						if( o == null)
 						{
-							String write = "YOUSOLD " + transaction_.getClientName() + " " + transaction_.getNumberOfStocks() + " " + transaction_.getPricePerStock();
+							String write = "YOUSOLD " + transaction_.getClientName() + " "
+									+ transaction_.getNumberOfStocks() + " " + transaction_.getPricePerStock();
 							outputString.println(write);
 							break;
 						}

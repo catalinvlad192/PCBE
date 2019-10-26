@@ -35,8 +35,10 @@ public class ClientThread extends Thread
 				boolean bool = client_.bought(o);
 				if(!bool)
 				{
-					FilePrinter.printLine("[ClientThread] " + "Error for " + client_.getClientName() + " buying from " + o.getClientName());
-					System.out.println("[ClientThread] " + "Error for " + client_.getClientName() + " buying from " + o.getClientName());
+					FilePrinter.printLine("[ClientThread] " + "Error for " + client_.getClientName()
+							+ " buying from " + o.getClientName());
+					System.out.println("[ClientThread] " + "Error for " + client_.getClientName()
+							+ " buying from " + o.getClientName());
 				}
 			}
 			else
@@ -44,8 +46,10 @@ public class ClientThread extends Thread
 				boolean bool = client_.sold(o);
 				if(!bool)
 				{
-					FilePrinter.printLine("[ClientThread] " + "Error for " + client_.getClientName() + " Something wrong with the offer");
-					System.out.println("[ClientThread] " + "Error for " + client_.getClientName() + " Something wrong with the offer");
+					FilePrinter.printLine("[ClientThread] " + "Error for " + client_.getClientName()
+							+ " Something wrong with the offer");
+					System.out.println("[ClientThread] " + "Error for " + client_.getClientName()
+							+ " Something wrong with the offer");
 				}
 			}
 		}
@@ -55,4 +59,3 @@ public class ClientThread extends Thread
 		}
 	}
 }
-

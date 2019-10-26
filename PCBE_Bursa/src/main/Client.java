@@ -29,7 +29,27 @@ public class Client implements Runnable
 		buyCompleted_ = false;
 		sellCompleted_ = false;
 	}
+
+	public synchronized void setSellCompleted(boolean b)
+	{
+		sellCompleted_ = b;
+	}
+
+	public synchronized void setBuyCompleted(boolean b)
+	{
+		buyCompleted_ = b;
+	}
 	
+	public synchronized boolean getSellCompleted()
+	{
+		return sellCompleted_;
+	}
+
+	public synchronized boolean getBuyCompleted()
+	{
+		return buyCompleted_;
+	}
+
 	public String getClientName()
 	{
 		return clientName_;
@@ -45,9 +65,11 @@ public class Client implements Runnable
 			{
 				numberOfStocks_ = numberOfStocks_ - stocksSold;
 				money_ = money_ + stocksSold*price;
-				sellCompleted_ = true;
-				FilePrinter.printLine("[Client] Sold. Current fortune is:   " + numberOfStocks_ + " " + money_);
-				System.out.println("[Client] Sold. Current fortune is:   " + numberOfStocks_ + " " + money_);
+				setSellCompleted(true);
+				FilePrinter.printLine("[Client] " + clientName_ +" SOLD. Current fortune is: "
+						+ numberOfStocks_ + " " + money_);
+				System.out.println("[Client] "+ clientName_ +" SOLD. Current fortune is: "
+						+ numberOfStocks_ + " " + money_);
 			}
 			return true;
 		}
@@ -64,9 +86,11 @@ public class Client implements Runnable
 			{
 			numberOfStocks_ = numberOfStocks_ + stocksBought;
 			money_ = money_ - stocksBought*price;
-			buyCompleted_ = true;
-			FilePrinter.printLine("[Client] " + clientName_ + " Bought from " + offer.getClientName() +" Current fortune is: " + numberOfStocks_ + " " + money_);
-			System.out.println("[Client] " + clientName_ + " Bought from " + offer.getClientName() +" Current fortune is: " + numberOfStocks_ + " " + money_);
+			setBuyCompleted(true);
+			FilePrinter.printLine("[Client] " + clientName_ + " Bought from " + offer.getClientName()
+					+ " Current fortune is: " + numberOfStocks_ + " " + money_);
+			System.out.println("[Client] " + clientName_ + " Bought from " + offer.getClientName()
+					+ " Current fortune is: " + numberOfStocks_ + " " + money_);
 			}
 			return true;
 		}
@@ -132,13 +156,14 @@ public class Client implements Runnable
 				}
 			}
 		}
-		// If normal client, send a request and an offer, in this order then wait for it to be completed before sending two more
+		// If normal client, send a request and an offer, in this order 
+		//then wait for it to be completed before sending two more
 		else
 		{
 			while (true)
 			{
-				buyCompleted_ = false;
-				sellCompleted_ = false;
+				setBuyCompleted(false);
+				setSellCompleted(false);
 				try
 				{
 					PrintWriter outputString = new PrintWriter(socket_.getOutputStream(), true);
@@ -166,10 +191,9 @@ public class Client implements Runnable
 					sellThread_ = new Thread(new ClientThread(this, socket_));
 					sellThread_.start();
 					
-					
 					while(true)
 					{
-						if(buyCompleted_ && sellCompleted_)
+						if(getBuyCompleted() && getSellCompleted())
 							break;
 					}
 					FilePrinter.printLine("[Client] " + clientName_ + " The two transactions were completed!");
