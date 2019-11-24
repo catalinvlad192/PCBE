@@ -9,18 +9,17 @@ import java.util.Map;
 
 public class Server implements Runnable
 {
-	
 	private HashMap<String, ITransaction> transactions_;
 	private ServerSocket serverSocket_;
 	private ArrayList<Pair<String, String>> transactionHistory_;
 	private ArrayList<Thread> listOfThreads_ = new ArrayList<Thread>();
-	
+
 	public Server()
 	{
 		transactions_ = new HashMap<String, ITransaction>();
 		transactionHistory_ = new ArrayList<Pair<String, String>>();
 	}
-	
+
 	public synchronized ArrayList<String> getTransactionHistory()
 	{
 		ArrayList<String> copy = new ArrayList<String>();
@@ -32,7 +31,7 @@ public class Server implements Runnable
 		}
 		return copy;
 	}
-	
+
 	public synchronized ArrayList<String> getTransactions()
 	{
 		ArrayList<String> copy = new ArrayList<String>();
@@ -54,7 +53,7 @@ public class Server implements Runnable
 		}
 		return copy;
 	}
-	
+
 	public synchronized void addTransaction(ITransaction t)
 	{
 		if(t.isForSale())

@@ -1,11 +1,11 @@
 package validators;
 
-import transaction.ITransaction;
+import observer.pattern.Notification;
 
 public class AllNotificationsValidator implements IValidator
 {
 	@Override
-	public boolean validate(ITransaction transaction)
+	public boolean validate(Notification notification)
 	{
 		return true;
 	}

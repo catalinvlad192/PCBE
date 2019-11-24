@@ -1,0 +1,3749 @@
+[Server] Created
+[Subject] Subscribe: Client0
+[Subject] Subscribe: Client1
+[Subject] Subscribe: Client2
+[Subject] Subscribe: Client3
+[Subject] Subscribe: Client4
+[Subject] Subscribe: Client5
+[Subject] Subscribe: Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+[Server] Add transaction for Client1
+[Subject] Notifying all observers
+[Server] Add transaction for Client2
+[Subject] Notifying all observers
+[PriceBetweenThresholdsValidator] New offer that i can afford
+[Client] Client Client0 is watching Client2
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client1 and OFFER Client2 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 2 StocksWanted: 2 PriceReceived: 2
+[Client] Client Client1 BOUGHT. Values afte purchase12 9996
+[Client] Client Client1 has bought from Client2
+[Client] Client Client1 TRYING TO SELL. Initial values12 9996 StocksReceived: 2 StocksWanted: 2 PriceReceived: 2
+[Client] Client Client2 TRYING TO SELL. Initial values10 10000 StocksReceived: 2 StocksWanted: 2 PriceReceived: 2
+[Client] Client Client2 SOLD. Values afte selling8 10004
+[Client] Client Client2 has sold
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 2 StocksWanted: 4 PriceReceived: 2
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 2 StocksWanted: 4 PriceReceived: 2
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 2 StocksWanted: 6 PriceReceived: 2
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 2 StocksWanted: 6 PriceReceived: 2
+[Server] Add transaction for Client1
+[Subject] Notifying all observers
+[PriceBetweenThresholdsValidator] New offer that i can afford
+[Client] Client Client0 is watching Client1
+[Server] Add transaction for Client2
+[Subject] Notifying all observers
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO SELL. Initial values12 9996 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO SELL. Initial values12 9996 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[Client] Client Client1 TRYING TO SELL. Initial values12 9996 StocksReceived: 2 StocksWanted: 2 PriceReceived: 2
+[Client] Client Client1 SOLD. Values afte selling10 10000
+[Client] Client Client1 has sold
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 2 StocksWanted: 4 PriceReceived: 2
+[Client] Reading transaction from Client1 2 2
+[Server] Add transaction for Client1
+[Subject] Notifying all observers
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client5
+[Subject] Notifying all observers
+[Client] Reading transaction from Client5 6 6
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client5
+[Subject] Notifying all observers
+[Client] Reading transaction from Client5 6 6
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client5
+[Subject] Notifying all observers
+[Client] Reading transaction from Client5 6 6
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client3
+[Subject] Notifying all observers
+[Client] Reading transaction from Client3 4 4
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[InterestedInMyOfferValidator] My offer was read
+[Client] Reading transaction from Client1 2 2
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[InterestedInMyOfferValidator] My offer was read
+[Client] Reading transaction from Client1 2 2
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[InterestedInMyOfferValidator] My offer was read
+[Client] Reading transaction from Client1 2 2
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client3
+[Subject] Notifying all observers
+[Client] Reading transaction from Client3 4 4
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client5
+[Subject] Notifying all observers
+[Client] Reading transaction from Client5 6 6
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[InterestedInMyOfferValidator] My offer was read
+[Client] Reading transaction from Client1 2 2
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client3
+[Subject] Notifying all observers
+[Client] Reading transaction from Client3 4 4
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client3
+[Subject] Notifying all observers
+[Client] Reading transaction from Client3 4 4
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[InterestedInMyOfferValidator] My offer was read
+[Client] Reading transaction from Client1 2 2
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client5
+[Subject] Notifying all observers
+[Client] Reading transaction from Client5 6 6
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[InterestedInMyOfferValidator] My offer was read
+[Client] Reading transaction from Client1 2 2
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client2
+[Subject] Notifying all observers
+[Client] Reading transaction from Client2 2 2
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[InterestedInMyOfferValidator] My offer was read
+[Client] Reading transaction from Client1 2 2
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client4
+[Subject] Notifying all observers
+[Client] Reading transaction from Client4 4 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client6
+[Subject] Notifying all observers
+[Client] Reading transaction from Client6 6 6
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+[Server] Someone reading transaction of client: Client1
+[Subject] Notifying all observers
+[InterestedInMyOfferValidator] My offer was read
+[Client] Client Client1 has bought from Client1
+[InterestedInMyOfferValidator] My offer was read
+[Client] Reading transaction from Client1 2 2
+[Server] Removed REQ Client4 and OFFER Client3 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 SOLD. Values afte selling10 10000
+[Client] Client Client3 has sold
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 BOUGHT. Values afte purchase10 10000
+[Client] Client Client4 has bought from Client3
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client6 and OFFER Client5 SIZE: 3
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 SOLD. Values afte selling10 10000
+[Client] Client Client5 has sold
+[Client] Client Client6 TRYING TO BUY. Initial values4 10036 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 BOUGHT. Values afte purchase10 10000
+[Client] Client Client6 has bought from Client5
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+Client3 Client4
+Client5 Client6
+Client4 Client3
+Client6 Client5
+[Server] Someone reading transaction of client: Client3
+[Subject] Notifying all observers
+[Client] Reading transaction from Client3 4 4
+[Server] Removed REQ Client3 and OFFER Client4 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 4 StocksWanted: 2 PriceReceived: 4
+[Client] Client Client3 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client3 BOUGHT. Values afte purchase14 9984
+[Client] Client Client3 has bought from Client4
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 4 PriceReceived: 4
+[Client] Client Client4 SOLD. Values afte selling6 10016
+[Client] Client Client4 has sold
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 4 StocksWanted: 6 PriceReceived: 4
+[Server] Add transaction for Client3
+[Subject] Notifying all observers
+[Server] Add transaction for Client4
+[Subject] Notifying all observers
+[Server] Removed REQ Client5 and OFFER Client6 SIZE: 4
+[Subject] Notifying all observers
+[Client] Client Client1 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client2 TRYING TO BUY. Initial values8 10004 StocksReceived: 6 StocksWanted: 2 PriceReceived: 6
+[Client] Client Client3 TRYING TO SELL. Initial values14 9984 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client4 TRYING TO BUY. Initial values6 10016 StocksReceived: 6 StocksWanted: 4 PriceReceived: 6
+[Client] Client Client5 TRYING TO BUY. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client5 BOUGHT. Values afte purchase16 9964
+[Client] Client Client5 has bought from Client6
+[Client] Client Client5 TRYING TO SELL. Initial values16 9964 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 TRYING TO SELL. Initial values10 10000 StocksReceived: 6 StocksWanted: 6 PriceReceived: 6
+[Client] Client Client6 SOLD. Values afte selling4 10036
+[Client] Client Client6 has sold
+[Server] Add transaction for Client5
+[Subject] Notifying all observers
+[Server] Add transaction for Client6
+[Subject] Notifying all observers
+[InterestingCompaniesValidator] Company: Client6 created an offer 
+[Client] Client Client0 is watching Client6
+[Server] Client reading transactions
+[Client] Here is the transaction history#############
+Client1 Client2
+Client3 Client4
+Client5 Client6
+Client4 Client3

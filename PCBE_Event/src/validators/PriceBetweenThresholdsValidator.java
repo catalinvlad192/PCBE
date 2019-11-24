@@ -1,6 +1,7 @@
 package validators;
 
-import transaction.ITransaction;
+import main.FilePrinter;
+import observer.pattern.Notification;
 
 public class PriceBetweenThresholdsValidator implements IValidator
 {
@@ -14,10 +15,15 @@ public class PriceBetweenThresholdsValidator implements IValidator
 	}
 
 	@Override
-	public boolean validate(ITransaction transaction)
+	public boolean validate(Notification notification)
 	{
-		if(minPrice_ <= transaction.getPrice() || maxPrice_ >= transaction.getPrice())
+		if(minPrice_ <= notification.getTransaction().getPrice() && maxPrice_ >= notification.getTransaction().getPrice()
+				&& notification.wasAdded() && notification.getTransaction().isForSale())
+		{
+			System.out.println("[PriceBetweenThresholdsValidator] New offer that i can afford");
+			FilePrinter.printLine("[PriceBetweenThresholdsValidator] New offer that i can afford");
 			return true;
+		}
 		return false;
 	}
 }

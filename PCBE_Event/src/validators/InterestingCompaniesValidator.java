@@ -2,7 +2,8 @@ package validators;
 
 import java.util.ArrayList;
 
-import transaction.ITransaction;
+import main.FilePrinter;
+import observer.pattern.Notification;
 
 public class InterestingCompaniesValidator implements IValidator
 {
@@ -14,12 +15,17 @@ public class InterestingCompaniesValidator implements IValidator
 	}
 	
 	@Override
-	public boolean validate(ITransaction transaction)
+	public boolean validate(Notification notification)
 	{
 		for(String company : companies_)
 		{
-			if(company.equals(transaction.getClientName()))
+			if(company.equals(notification.getTransaction().getClientName())
+					&& notification.wasAdded())
+			{
+				System.out.println("[InterestingCompaniesValidator] Company: " + company + " created an offer ");
+				FilePrinter.printLine("[InterestingCompaniesValidator] Company: " + company + " created an offer ");
 				return true;
+			}
 		}
 		
 		return false;

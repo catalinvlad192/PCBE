@@ -1,6 +1,7 @@
 package validators;
 
-import transaction.ITransaction;
+import main.FilePrinter;
+import observer.pattern.Notification;
 
 public class InterestedInMyOfferValidator implements IValidator
 {
@@ -11,8 +12,15 @@ public class InterestedInMyOfferValidator implements IValidator
 		myName_ = myName;
 	}
 
-	public boolean validate(ITransaction transaction)
+	public boolean validate(Notification notification)
 	{
-		return myName_.equals(transaction.getClientName());
+		if(myName_.equals(notification.getTransaction().getClientName())
+				&& notification.wasRead())
+		{
+			System.out.println("[InterestedInMyOfferValidator] My offer was read");
+			FilePrinter.printLine("[InterestedInMyOfferValidator] My offer was read");
+			return true;
+		}
+		return false;
 	}
 }
